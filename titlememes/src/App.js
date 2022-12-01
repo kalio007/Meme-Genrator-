@@ -1,6 +1,9 @@
 import './App.css';
 import Header from './components/Header';
 import Meme from './components/Meme';
+import Time from './components/Time';
+
+
 
 
 
@@ -9,7 +12,7 @@ function App() {
     <div>
       <Header />
       <Meme />
-      <h1>hello world</h1>
+      <Time/>
     </div>
   );
 }
